@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Answering System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Question Answering System</h1>
+            <p>Upload 3 PDFs and ask a question to get answers based on the content.</p>
+        </header>
+
+        <section class="upload-section">
+            <h2>Upload 3 PDF Files</h2>
+            <input type="file" id="pdfUpload" accept=".pdf" multiple>
+            <p id="fileNames">Select 3 PDFs to upload.</p>
+        </section>
+
+        <section class="query-section">
+            <h2>Ask a Question</h2>
+            <input type="text" id="userQuery" placeholder="Type your question here">
+            <button id="askButton">Ask</button>
+        </section>
+
+        <section class="answer-section">
+            <h2>Answer:</h2>
+            <p id="answer">The answer will appear here.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy;Question Answering System.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

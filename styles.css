@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #004aad;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Upload Section */
+.upload-section {
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #ff8a00, #e52e71);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.upload-section h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.upload-section input[type="file"] {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#fileNames {
+    margin-top: 15px;
+    color: #fff;
+}
+
+/* Query Section */
+.query-section {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+}
+
+.query-section h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.query-section input[type="text"] {
+    width: 70%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+}
+
+.query-section button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #004aad;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.query-section button:hover {
+    background-color: #003a8c;
+}
+
+/* Answer Section */
+.answer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+}
+
+.answer-section h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.answer-section p {
+    font-size: 18px;
+    color: #006600;
+    font-weight: bold;
+}
