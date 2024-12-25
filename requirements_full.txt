@@ -1,0 +1,33 @@
+
+# Flask Web Framework
+flask
+
+# Sentence-BERT model for semantic embeddings
+sentence-transformers
+
+# OpenAI GPT-3 for text generation
+openai
+
+# NLTK for text preprocessing (tokenization, stopwords, etc.)
+nltk
+
+# spaCy for Named Entity Recognition (NER)
+spacy
+
+# PyPDF2 for PDF text extraction
+PyPDF2
+
+# scikit-learn for any additional ML-based utilities
+scikit-learn
+
+# Flask file upload handling
+Werkzeug
+
+# To install the spaCy model
+spacy[transformers]  # Optional, for transformer-based spaCy models
+
+# If you need to use PyTorch (if needed by transformers or other models)
+torch
+
+# Optional: If using any image processing with OpenCV (if applicable)
+opencv-python
