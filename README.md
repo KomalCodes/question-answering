@@ -148,17 +148,17 @@ Once you click on the **Ask** button:
 
 Here are the selected textbooks used in the system:
 
-1. **Textbook 1: "Introduction to Machine Learning"**
+1. **Textbook 1:** 
 Data Science and Machine Learning Mathematical and Statistical Methods by Dirk P. Kroese, Zdravko I. Botev, Thomas Taimre, Radislav Vaisman
-2. **Textbook 2: "Deep Learning with Python"**
+2. **Textbook 2:** 
 The Data Science Handbook by Wiley
-3. **Textbook 3: "Neural Networks and Deep Learning"**
+3. **Textbook 3:** 
 Data Science & Big Data Analytics Discovering, Analyzing, Visualizing and Presenting Data by Wiley
 
  **6. Accessing the User Interface**
 
  **6.1. Navigating the UI**
-1. **Homepage** (`/`):
+1. **Homepage**:
    - Contains the **file upload section** to upload the three PDFs.
    - Input box to **ask a question** related to the content of the uploaded PDFs.
 
