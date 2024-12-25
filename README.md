@@ -127,7 +127,7 @@ Here’s a list of the main Python libraries used in this project:
 **4. Usage Instructions**
 
  **4.1. Uploading PDF Files**
-1. **Go to the homepage** (`http://127.0.0.1:5000/`).
+1. **Go to the homepage**.
 2. **Click on the upload section** to choose **three PDF textbooks**.
 3. After selecting, the system will process and extract text from the uploaded PDFs.
 
