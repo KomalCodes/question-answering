@@ -108,7 +108,7 @@ To start the **Flask** web server, run:
 ```bash
 python app.py
 ```
-This will start the app at **http://127.0.0.1:5000/**. You can access the web interface in your browser.
+ You can access the web interface in your browser.
 
 ---
 
